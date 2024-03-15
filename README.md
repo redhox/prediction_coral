@@ -7,7 +7,7 @@ Prerequisites
     -Raspberry Pi OS Bullseye/Bookworm (64-bit)
     -Google Coral Edge TPU Accelerator (only usb version tested)
     -tflite model version of yolov8
-to creat a tflite model from yolov8.pt see <a href="">here</a>
+to creat a tflite model from yolov8.pt see <a href="https://github.com/redhox/model_yolov8_to_coral">here</a>
 
 ## Installation
 
