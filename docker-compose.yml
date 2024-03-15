@@ -1,0 +1,14 @@
+version: '3'
+services:
+ coral_predict:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - './:/app'
+      - '/etc/udev/rules.d/65-apex.rules:/etc/udev/rules.d/65-apex.rules'
+    environment:
+      - LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu/
+    devices:
+      - "/dev/bus/usb:/dev/bus/usb"
+
